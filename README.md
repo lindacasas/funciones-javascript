@@ -11,7 +11,7 @@ Este proyecto contiene una simulación interactiva de un semáforo utilizando Ja
 - Diseño responsive con SVG y CSS
 - Código JavaScript simple y entendible
 
-## EJERCICIOS
+## FUNCIONALIDADES
 
 - Cambio manual de luces con botón
 - Cambio automático de luces cada segundo
