@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semáforo</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <h1 class="title">SEMÁFORO</h1>
+    <section class="general-container">
+        <article class="container" id="exercise1">
+            <h3 class="exercise-title">Manual</h3>
+            <div class="traffic-light">
+                <div class="light green" id="green"></div>
+                <div class="light yellow" id="yellow"></div>
+                <div class="light red" id="red"></div>
+            </div>
+            <button id="btn-smfr" class="btn btn-primary" type="button">Cambiar Luz</button>
+        </article>
+
+        <article class="container-img" id="exercise2">
+            <h3 class="exercise-title">Automático</h3>
+            <div class="traffic-light">
+                <div class="light-img">  
+                    <img class="img-smfr" src="./src/img/green.svg" id="green-img">
+                </div>
+                <div class="light-img">
+                    <img class="img-smfr" src="./src/img/yellow.svg" id="yellow-img">
+                </div>
+                <div class="light-img">
+                    <img class="img-smfr" src="./src/img/red.svg" id="red-img">
+                </div>
+            </div>
+        </article>
+    </section>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <!-- JS -->
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
