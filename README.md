@@ -37,4 +37,4 @@ Linda Melissa Casas Huanca
 ## URL
 
 - GitHub: https://github.com/lindacasas/funciones-javascript
-- GitHub Pages:
+- GitHub Pages: https://lindacasas.github.io/funciones-javascript/
